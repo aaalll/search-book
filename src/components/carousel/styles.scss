@@ -1,0 +1,16 @@
+lib-carousel {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+  width: 100%;
+  height: calc(100vh - 89px);
+  overflow: hidden;
+  padding: 16px 0;
+}
+
+.track {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  transition: left 350ms ease;
+}

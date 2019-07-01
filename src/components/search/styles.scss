@@ -1,0 +1,50 @@
+lib-search {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 89px;
+  width: 100%;
+  padding: 8px;
+  background: white;
+  z-index: 999;
+
+  &.is-searching {
+
+  }
+}
+
+.input-container {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &.error {
+
+    .search-input::placeholder {
+      color: crimson;
+    }
+  }
+}
+
+.search-input {
+  height: 36px;
+  width: 100%;
+}
+
+.instructions {
+  font-size: 12px;
+  width: 100%;
+  color: gray;
+  margin-top: 8px;
+  padding: 0 4px;
+
+  p {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+  }
+}

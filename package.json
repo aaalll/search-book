@@ -1,0 +1,49 @@
+{
+  "name": "search-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaalll/search-book.git"
+  },
+  "keywords": [
+    "Search",
+    "book"
+  ],
+  "author": "aaalll",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "css-modules-require-hook": "^4.2.3",
+    "lodash": "^4.17.11",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.8",
+    "@types/expect.js": "^0.3.29",
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/lodash": "^4.14.135",
+    "@types/webpack": "^4.4.34",
+    "@types/webpack-dev-server": "^3.1.6",
+    "autoprefixer": "^9.6.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^2.0.0",
+    "expect.js": "^0.3.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
